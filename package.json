@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "dbOn": "mkdir -p ./db && mongod --dbpath ./db",
     "dbOff": "killall mongod",
-    "start": "node src/index.js"
+    "start": "node src/main.js"
   },
   "jest": {
     "setupFiles": [
